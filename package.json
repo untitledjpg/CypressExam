@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "cypress": "^8.5.0",
+    "prettier": "^2.4.1",
+    "mochawesome": "^6.3.0",
+    "mochawesome-report-generator": "^5.2.0",
+    "mochawesome-merge": "^4.2.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "combine-results": "mochawesome-merge mochawesome-report/*.json > cypress/task/report.json",
+    "generate-report": "marge cypress/task/report.json -f report -o cypress/task"
+  }
+}

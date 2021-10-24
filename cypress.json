@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://lv.sportsdirect.com/",
+  "video": true,
+  "reporter": "mochawesome",
+  "defaultCommandTimeout": 20000,
+  "reporterOptions": {
+    "html": true,
+    "json": false,
+    "overwrite": true,
+    "reportDir": "cypress/task",
+    "timestamp": "mmddyyyy_HHMMss"
+  }
+}

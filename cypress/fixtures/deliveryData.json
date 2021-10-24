@@ -1,0 +1,10 @@
+{
+  "deliveryData": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "line1": "Brīvības iela 100",
+    "town": "Rīga",
+    "postcode": "LV-1001",
+    "telephoneNumber": "+37125496785"
+  }
+}
